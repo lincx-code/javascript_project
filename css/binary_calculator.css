@@ -1,0 +1,46 @@
+.calculator {
+    width: 300px;
+    margin: 35px auto;
+    border: 2px solid #666666;
+    padding: 15px;
+    border-radius: 10px;
+}
+#res {
+    background-color: #efefef;
+    border: 2px solid #666666;
+    height: 48px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+#btns {
+    clear: both;
+    overflow: hidden;
+}
+#btns > button {
+    width: 72px;
+    height: 36px;
+    font-size: 18px;
+    margin: 2px;
+    float: left;
+    border: 1px solid #999999;
+    cursor: pointer;
+}
+#btns > button:hover {
+    background-color: #999999;
+    color: #ffffff;
+    border: 1px solid #777777;
+}
+#btns > button:nth-of-type(1), #btns > button:nth-of-type(5) {
+    margin-left: 0;
+}
+#btns > button:nth-of-type(4), #btns > button:nth-of-type(8) {
+    margin-right: 0;
+}
+#btn0, #btn1 {
+    background-color: #f9f9f9;
+    color: #666666;
+}
+#btnClr, #btnEql, #btnSum, #btnSub, #btnMul, #btnDiv {
+    background-color: #e3e3e3;
+    color: #333333;
+}
