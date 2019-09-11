@@ -19,7 +19,6 @@ btnClr.onclick = () => res.innerHTML = "";
 
 //function for clicking the equal button
 function actionEql() {
-    let regex = /\+|\-|\*|\//;
     let input = res.innerHTML;
     let output = [];
     let str = "";
